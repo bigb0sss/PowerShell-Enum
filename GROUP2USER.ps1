@@ -1,9 +1,9 @@
 <#
     .VERSION
-		v1 - June 21, 2019
+	v1 - June 21, 2019
 	
-	.SYNOPSIS
-		Query user accounts of the Domain Group or Group-Like and parse it to CSV format to search for "Service Accounts." 
+    .SYNOPSIS
+	Query user accounts of the Domain Group or Group-Like and parse it to CSV format to search for "Service Accounts." 
 
     .DESCRIPTION
         Takes in a raw PowerShell query and exports it to CSV format for further analysis.
