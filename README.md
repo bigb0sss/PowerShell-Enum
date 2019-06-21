@@ -14,6 +14,6 @@ PS C:\> .\GROUP2USER.ps1
   [1] Domain Group (ex. Domain Admins)
   [2] Domain Group-Like (ex. *vpn*)
   [1] 1 Group  [2] 2 Group-Like  [?] Help (default is "2"): <UI>
-  [*] Enter Domain Group: <UI>
-  [*] Enter Domain Group-like (ex. vpn): <UI>
+    [*] Enter Domain Group: <UI>
+    [*] Enter Domain Group-like (ex. vpn): <UI>
 ```
