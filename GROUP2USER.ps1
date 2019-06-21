@@ -39,7 +39,7 @@ $choices  = '&1 Group', '&2 Group-Like'
 
 $decision = $Host.UI.PromptForChoice($1, $2, $choices, 1)
 if ($decision -eq 0) {
-    $group = $(Write-Host "[*] Enter Domain Group: " -ForegroundColor Blue -NoNewline; Read-Host)
+    $group = $(Write-Host "[*] Enter Domain Group (ex. Domain Admins): " -ForegroundColor Blue -NoNewline; Read-Host)
 	
 } else {
     $group_like = $(Write-Host "[*] Enter Domain Group-like (ex. vpn): " -ForegroundColor Blue -NoNewline; Read-Host)
