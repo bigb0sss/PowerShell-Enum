@@ -14,9 +14,9 @@
     .PARAMETER DC(FQDN) Name
         Domain Controller that you query against
 		
-	.PARAMETER Doamin Group / Domain Group-Like Name
-		Domain Group: You can specify a single Domain Group.
-		Domain Group-Like: You can specify a single word which might be contained in many groups.
+    .PARAMETER Doamin Group / Domain Group-Like Name
+	Domain Group: You can specify a single Domain Group.
+	Domain Group-Like: You can specify a single word which might be contained in many groups.
 
     .EXAMPLE
         PS C:\> .\GROUP2USER.ps1
